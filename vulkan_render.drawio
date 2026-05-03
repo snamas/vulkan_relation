@@ -1,35 +1,101 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2241" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2873" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateInstance()&#xa;Vulkanインスタンスを作成する関数" vertex="1">
-          <mxGeometry height="118" width="380" x="120" y="210" as="geometry" />
+          <mxGeometry height="136" width="380" x="120" y="210" as="geometry" />
         </mxCell>
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-2" parent="g9-6-ubSyV07y9Zf1O_9-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pCreateInfo: VkInstanceCreateInfo構造体のポインタ" vertex="1">
           <mxGeometry height="26" width="380" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="g9-6-ubSyV07y9Zf1O_9-3" parent="g9-6-ubSyV07y9Zf1O_9-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pAllocator: VkAllocationCallbacks構造体のポインタ" vertex="1">
-          <mxGeometry height="26" width="380" y="66" as="geometry" />
+        <mxCell id="g9-6-ubSyV07y9Zf1O_9-3" parent="g9-6-ubSyV07y9Zf1O_9-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pAllocator: VkAllocationCallbacks構造体のポインタ&#xa;nullにするとVulkan標準のメモリアロケーターが使用される" vertex="1">
+          <mxGeometry height="44" width="380" y="66" as="geometry" />
         </mxCell>
-        <mxCell id="g9-6-ubSyV07y9Zf1O_9-4" parent="g9-6-ubSyV07y9Zf1O_9-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pInstance: VkInstanceオブジェクトを作るよ" vertex="1">
-          <mxGeometry height="26" width="380" y="92" as="geometry" />
+        <mxCell id="g9-6-ubSyV07y9Zf1O_9-4" parent="g9-6-ubSyV07y9Zf1O_9-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pInstance: VkInstanceハンドルを作るよ" vertex="1">
+          <mxGeometry height="26" width="380" y="110" as="geometry" />
         </mxCell>
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g9-6-ubSyV07y9Zf1O_9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="g9-6-ubSyV07y9Zf1O_9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkInstanceCreateInfo &#xa;Vulkanインスタンスの設定のための構造体" vertex="1">
-          <mxGeometry height="118" width="380" x="-300" y="70" as="geometry" />
+          <mxGeometry height="262" width="380" x="-410" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="g9-6-ubSyV07y9Zf1O_9-8" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値" vertex="1">
-          <mxGeometry height="26" width="380" y="40" as="geometry" />
+        <mxCell id="g9-6-ubSyV07y9Zf1O_9-8" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO ）" vertex="1">
+          <mxGeometry height="40" width="380" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="g9-6-ubSyV07y9Zf1O_9-9" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ *pNext: VkAllocationCallbacks構造体を入れる" vertex="1">
-          <mxGeometry height="26" width="380" y="66" as="geometry" />
+        <mxCell id="g9-6-ubSyV07y9Zf1O_9-9" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="380" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="g9-6-ubSyV07y9Zf1O_9-10" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: インスタンスのフラグ" vertex="1">
-          <mxGeometry height="26" width="380" y="92" as="geometry" />
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-4" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: インスタンスのフラグ" vertex="1">
+          <mxGeometry height="26" width="380" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-5" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pApplicationInfo: VkApplicationInfo構造体のポインタ" vertex="1">
+          <mxGeometry height="26" width="380" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-7" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ enabledLayerCount: 有効化するレイヤー数" vertex="1">
+          <mxGeometry height="26" width="380" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-8" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ppEnabledLayerNames: 有効化するレイヤー名の配列" vertex="1">
+          <mxGeometry height="26" width="380" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="g9-6-ubSyV07y9Zf1O_9-10" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ enabledExtensionCount : 有効化する拡張機能の数" vertex="1">
+          <mxGeometry height="26" width="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-6" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ppEnabledExtensionNames : 有効化する拡張機能の名前の配列" vertex="1">
+          <mxGeometry height="26" width="380" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-27" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Xu7qQIL9YS2TROPA1UO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-18" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkApplicationInfo  &#xa;このアプリケーションの情報" vertex="1">
+          <mxGeometry height="236" width="380" x="-820" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-19" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_APPLICATION_INFO ）" vertex="1">
+          <mxGeometry height="40" width="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-20" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-21" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pApplicationName: このアプリケーションの名前" vertex="1">
+          <mxGeometry height="26" width="380" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-22" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ applicationVersion: このアプリケーションのバージョン" vertex="1">
+          <mxGeometry height="26" width="380" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-23" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pEngineName: このエンジンの名前" vertex="1">
+          <mxGeometry height="26" width="380" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-24" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ engineVersion: このエンジンのバージョン" vertex="1">
+          <mxGeometry height="26" width="380" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-25" parent="1Xu7qQIL9YS2TROPA1UO-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ apiVersion: このエンジンが使用するVulkanのバージョン" vertex="1">
+          <mxGeometry height="26" width="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-28" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkAllocationCallbacks  &#xa;Vulkanインスタンスの設定のための構造体" vertex="1">
+          <mxGeometry height="200" width="430" x="-380" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-29" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pUserData: 関数が呼ばれたときに参照できる任意の変数のポインタ" vertex="1">
+          <mxGeometry height="30" width="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-30" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pfnAllocation: メモリの割り当てする関数のポインタ" vertex="1">
+          <mxGeometry height="26" width="430" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-31" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pfnReallocation: メモリの再割り当てをする関数のポインタ" vertex="1">
+          <mxGeometry height="26" width="430" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-32" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pfnFree: メモリの開放をする関数のポインタ" vertex="1">
+          <mxGeometry height="26" width="430" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-33" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pfnInternalAllocation: メモリを割り当てると呼ばれる関数のポインタ" vertex="1">
+          <mxGeometry height="26" width="430" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-34" parent="1Xu7qQIL9YS2TROPA1UO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pfnInternalFree: メモリを開放すると呼ばれる関数のポインタ" vertex="1">
+          <mxGeometry height="26" width="430" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="1Xu7qQIL9YS2TROPA1UO-37" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="g9-6-ubSyV07y9Zf1O_9-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
