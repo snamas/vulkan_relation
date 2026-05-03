@@ -101,7 +101,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Xu7qQIL9YS2TROPA1UO-38" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkEnumeratePhysicalDevices()&#xa;Vulkanインスタンスからアクセス可能な物理デバイスを列挙する" vertex="1">
-          <mxGeometry height="136" width="420" x="340" y="410" as="geometry" />
+          <mxGeometry height="136" width="420" x="330" y="360" as="geometry" />
         </mxCell>
         <mxCell id="1Xu7qQIL9YS2TROPA1UO-39" parent="1Xu7qQIL9YS2TROPA1UO-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ instance: 事前に作ったVkInstanceのハンドラ" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -111,6 +111,111 @@
         </mxCell>
         <mxCell id="1Xu7qQIL9YS2TROPA1UO-41" parent="1Xu7qQIL9YS2TROPA1UO-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pPhysicalDevices: 物理デバイスのハンドラの配列" vertex="1">
           <mxGeometry height="26" width="420" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetPhysicalDeviceMemoryProperties2()&#xa;指定された物理デバイスのメモリ情報を取得する" vertex="1">
+          <mxGeometry height="90" width="420" x="810" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-1" parent="XzQZPunU_e5TuytFXa2U-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ physicalDevice: 情報を取得する物理デバイスのハンドラ" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-2" parent="XzQZPunU_e5TuytFXa2U-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pMemoryProperties: ここにメモリ特性の情報が返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-4" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPhysicalDeviceMemoryProperties2   &#xa;指定された物理デバイスのメモリ情報が入っている構造体" vertex="1">
+          <mxGeometry height="130" width="440" x="1260" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-8" parent="XzQZPunU_e5TuytFXa2U-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2 ）" vertex="1">
+          <mxGeometry height="40" width="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-9" parent="XzQZPunU_e5TuytFXa2U-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-7" parent="XzQZPunU_e5TuytFXa2U-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryProperties: ここにメモリ特性情報の構造体がある" vertex="1">
+          <mxGeometry height="24" width="440" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-11" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPhysicalDeviceMemoryProperties   &#xa;指定された物理デバイスのメモリ情報が入っている構造体" vertex="1">
+          <mxGeometry height="142" width="520" x="1730" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-13" parent="XzQZPunU_e5TuytFXa2U-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryTypeCount: 使用できるメモリタイプの数" vertex="1">
+          <mxGeometry height="26" width="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-14" parent="XzQZPunU_e5TuytFXa2U-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryTypes[VK_MAX_MEMORY_TYPES]: 使用できるメモリタイプを列挙した配列" vertex="1">
+          <mxGeometry height="24" width="520" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-15" parent="XzQZPunU_e5TuytFXa2U-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryHeapCount: 使用できるメモリヒープの種類の数" vertex="1">
+          <mxGeometry height="26" width="520" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-16" parent="XzQZPunU_e5TuytFXa2U-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryHeaps[VK_MAX_MEMORY_HEAPS]: 使用できるメモリヒールの種類を列挙した配列" vertex="1">
+          <mxGeometry height="26" width="520" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-17" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-18" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetPhysicalDeviceProperties2()&#xa;指定された物理デバイスのデバイス情報を取得する" vertex="1">
+          <mxGeometry height="90" width="420" x="790" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-19" parent="XzQZPunU_e5TuytFXa2U-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ physicalDevice: 情報を取得する物理デバイスのハンドラ" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-20" parent="XzQZPunU_e5TuytFXa2U-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pProperties: ここにデバイス特性の情報が返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-21" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPhysicalDeviceProperties2   &#xa;指定された物理デバイスのメモリ情報が入っている構造体" vertex="1">
+          <mxGeometry height="130" width="420" x="1260" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-22" parent="XzQZPunU_e5TuytFXa2U-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2 ）" vertex="1">
+          <mxGeometry height="40" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-23" parent="XzQZPunU_e5TuytFXa2U-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-24" parent="XzQZPunU_e5TuytFXa2U-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ properties: ここにデバイス特性情報の構造体がある" vertex="1">
+          <mxGeometry height="24" width="420" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-28" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-29" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-30" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPhysicalDeviceProperties   &#xa;指定された物理デバイスの情報が入っている構造体" vertex="1">
+          <mxGeometry height="272" width="520" x="1730" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-31" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ apiVersion : デバイスがサポートするVulkanのバージョン" vertex="1">
+          <mxGeometry height="26" width="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-32" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ driverVersion :デバイスドライバのバージョン" vertex="1">
+          <mxGeometry height="24" width="520" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-33" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ vendorID: デバイスの製造元を表すベンダ番号" vertex="1">
+          <mxGeometry height="26" width="520" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-36" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+deviceID: ベンダの中でデバイスを識別できる番号" vertex="1">
+          <mxGeometry height="26" width="520" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-35" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+deviceType: デバイスの状態（内蔵型gpuか独立しているか、仮想gpuかとか）" vertex="1">
+          <mxGeometry height="26" width="520" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-34" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+deviceName[VK_MAX_PHYSICAL_DEVICE_NAME_SIZE]: デバイスの名前" vertex="1">
+          <mxGeometry height="26" width="520" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-37" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+pipelineCacheUUID[VK_UUID_SIZE]: すべてのデバイスの中で固有の識別番号" vertex="1">
+          <mxGeometry height="26" width="520" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-38" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+limits: デバイスの制約（扱える画像サイズの上限とか）" vertex="1">
+          <mxGeometry height="26" width="520" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-39" parent="XzQZPunU_e5TuytFXa2U-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+sparseProperties: 物理デバイスが扱えるスパースメモリの種類を示した構造体" vertex="1">
+          <mxGeometry height="26" width="520" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-40" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
