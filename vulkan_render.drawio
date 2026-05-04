@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2873" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2873" dy="2357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -215,6 +215,126 @@
           <mxGeometry height="26" width="520" y="246" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-40" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-41" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetPhysicalDeviceQueueFamilyProperties2()&#xa;Vulkanに存在するキューの情報を取得する" vertex="1">
+          <mxGeometry height="136" width="506" x="790" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-42" parent="XzQZPunU_e5TuytFXa2U-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ physicalDevice: 物理デバイスのハンドラ" vertex="1">
+          <mxGeometry height="26" width="506" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-43" parent="XzQZPunU_e5TuytFXa2U-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyPropertyCount: 取得するキューファミリー情報の配列の数&#xa;pQueueFamilyPropertiesがnullの場合、利用可能なキューファミリー配列の数が返ってくる" vertex="1">
+          <mxGeometry height="44" width="506" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-44" parent="XzQZPunU_e5TuytFXa2U-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyProperties: キューファミリーの配列" vertex="1">
+          <mxGeometry height="26" width="506" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-45" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-46" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkQueueFamilyProperties2   &#xa;指定されたキューファミリー情報が入っている構造体" vertex="1">
+          <mxGeometry height="130" width="420" x="1340" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-47" parent="XzQZPunU_e5TuytFXa2U-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2）" vertex="1">
+          <mxGeometry height="40" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-48" parent="XzQZPunU_e5TuytFXa2U-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-49" parent="XzQZPunU_e5TuytFXa2U-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyProperties : ここにキューファミリー情報の構造体がある" vertex="1">
+          <mxGeometry height="24" width="420" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-50" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-51" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkQueueFamilyProperties&#xa;指定された物理デバイスの情報が入っている構造体" vertex="1">
+          <mxGeometry height="142" width="460" x="1790" y="1077" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-52" parent="XzQZPunU_e5TuytFXa2U-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFlags : このキューファミリー内のキューがサポートしている機能について" vertex="1">
+          <mxGeometry height="26" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-53" parent="XzQZPunU_e5TuytFXa2U-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueCount :このキューファミリーのキューの個数" vertex="1">
+          <mxGeometry height="24" width="460" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-54" parent="XzQZPunU_e5TuytFXa2U-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ timestampValidBits: タイムスタンプの有効桁数について" vertex="1">
+          <mxGeometry height="26" width="460" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-55" parent="XzQZPunU_e5TuytFXa2U-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ minImageTransferGranularity: 画像転送するときの最小の粒度について" vertex="1">
+          <mxGeometry height="26" width="460" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-61" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-62" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetPhysicalDeviceFeatures2()&#xa;指定された物理デバイスがサポートしている拡張機能を取得する" vertex="1">
+          <mxGeometry height="90" width="420" x="790" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-63" parent="XzQZPunU_e5TuytFXa2U-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ physicalDevice: 情報を取得する物理デバイスのハンドラ" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-64" parent="XzQZPunU_e5TuytFXa2U-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pFeatures: ここにデバイス機能の情報が返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-66" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1Xu7qQIL9YS2TROPA1UO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-67" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPhysicalDeviceFeatures2   &#xa;指定された物理デバイスがサポートする拡張機能の情報が入っている構造体" vertex="1">
+          <mxGeometry height="130" width="420" x="1320" y="1273" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-68" parent="XzQZPunU_e5TuytFXa2U-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2）" vertex="1">
+          <mxGeometry height="40" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-69" parent="XzQZPunU_e5TuytFXa2U-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-70" parent="XzQZPunU_e5TuytFXa2U-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ features: ここにデバイスがサポートする拡張機能の情報の構造体がある" vertex="1">
+          <mxGeometry height="24" width="420" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-71" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-72" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkQueueFamilyProperties&#xa;指定された物理デバイスがサポートできる機能についての構造体" vertex="1">
+          <mxGeometry height="376" width="460" x="1790" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-73" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  robustBufferAccess  : 有効だと堅牢なバッファアクセスが保証される" vertex="1">
+          <mxGeometry height="26" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-74" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  fullDrawIndexUint32 :インデックスが32bit全範囲が使用可能か" vertex="1">
+          <mxGeometry height="24" width="460" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-75" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  imageCubeArray : キューブ配列が利用可能か" vertex="1">
+          <mxGeometry height="26" width="460" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-78" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  independentBlend : " vertex="1">
+          <mxGeometry height="26" width="460" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-79" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  geometryShader: ジオメトリシェーダーが利用可能か" vertex="1">
+          <mxGeometry height="26" width="460" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-82" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  tessellationShader: " vertex="1">
+          <mxGeometry height="26" width="460" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-81" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  sampleRateShading : " vertex="1">
+          <mxGeometry height="26" width="460" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-85" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  dualSrcBlend : " vertex="1">
+          <mxGeometry height="26" width="460" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-83" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  logicOp : " vertex="1">
+          <mxGeometry height="26" width="460" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-84" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  multiDrawIndirect: " vertex="1">
+          <mxGeometry height="26" width="460" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-80" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  drawIndirectFirstInstance: " vertex="1">
+          <mxGeometry height="26" width="460" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-76" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+  depthClamp : " vertex="1">
+          <mxGeometry height="26" width="460" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-86" parent="XzQZPunU_e5TuytFXa2U-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="... " vertex="1">
+          <mxGeometry height="26" width="460" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-77" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
