@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="9011" dy="5729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -649,63 +649,66 @@
           <mxGeometry height="24" width="420" y="114" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-216" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkSwapchainCreateInfoKHR &#xa;作成するスワップチェインについての構造体" vertex="1">
-          <mxGeometry height="522" width="420" x="833" y="2670" as="geometry" />
+          <mxGeometry height="522" width="517" x="736" y="2478" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-217" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO）" vertex="1">
-          <mxGeometry height="40" width="420" y="40" as="geometry" />
+          <mxGeometry height="40" width="517" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-218" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
-          <mxGeometry height="26" width="420" y="80" as="geometry" />
+          <mxGeometry height="26" width="517" y="80" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-219" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="106" as="geometry" />
+          <mxGeometry height="26" width="517" y="106" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-229" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ surface: 描画対象のサーフェイス" vertex="1">
-          <mxGeometry height="26" width="420" y="132" as="geometry" />
+          <mxGeometry height="26" width="517" y="132" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-228" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ minImageCount: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="158" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-228" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ minImageCount: スワップチェーンが使う画像の最小数" vertex="1">
+          <mxGeometry height="26" width="517" y="158" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-224" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageFormat: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="184" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-224" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageFormat: スワップチェーンが使う画像のフォーマット" vertex="1">
+          <mxGeometry height="26" width="517" y="184" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-223" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageColorSpace: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="210" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-223" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageColorSpace: スワップチェーンが扱う色空間" vertex="1">
+          <mxGeometry height="26" width="517" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-222" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageExtent: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="236" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-222" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageExtent: スワップチェーンが使う画像のサイズ" vertex="1">
+          <mxGeometry height="26" width="517" y="236" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-225" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageArrayLayers: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="262" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-225" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageArrayLayers: ターゲットのビューの数" vertex="1">
+          <mxGeometry height="26" width="517" y="262" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-226" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageUsage: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="288" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-226" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageUsage: スワップチェーンが扱う画像の使用目的" vertex="1">
+          <mxGeometry height="26" width="517" y="288" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-227" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageSharingMode: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="314" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-227" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageSharingMode: スワップチェーン画像の共有モードについて" vertex="1">
+          <mxGeometry height="26" width="517" y="314" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-230" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyIndexCount: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="340" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-230" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyIndexCount: スワップチェーン画像にアクセスできるキューファミリーの数" vertex="1">
+          <mxGeometry height="26" width="517" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-235" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="366" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-235" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: スワップチェーン画像にアクセスできるキューファミリー番号の配列" vertex="1">
+          <mxGeometry height="26" width="517" y="366" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-233" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ preTransform: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="392" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-233" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ preTransform: 画像を回転とかして表示させるか" vertex="1">
+          <mxGeometry height="26" width="517" y="392" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-234" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ compositeAlpha: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="418" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-234" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ compositeAlpha: この画面が半透明か不透明かとかのフラグ" vertex="1">
+          <mxGeometry height="26" width="517" y="418" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-232" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ presentMode: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="444" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-232" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ presentMode: スワップチェーンが使用するプレゼンテーションモードとかについて" vertex="1">
+          <mxGeometry height="26" width="517" y="444" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-231" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ clipped: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="470" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-231" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ clipped: 非表示領域に書き込むレンダリング操作を破棄するかどうか" vertex="1">
+          <mxGeometry height="26" width="517" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-221" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ oldSwapchain: 将来のために予約" vertex="1">
-          <mxGeometry height="26" width="420" y="496" as="geometry" />
+        <mxCell id="XzQZPunU_e5TuytFXa2U-221" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ oldSwapchain: 再利用のため、前に作ったスワップチェーンを入れられる" vertex="1">
+          <mxGeometry height="26" width="517" y="496" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-220" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-236" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-215">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
