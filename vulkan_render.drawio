@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2757" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3652" dy="2713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -558,7 +558,7 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-180" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkDestroySemaphore()&#xa;指定されたセマフォを破棄する" vertex="1">
           <mxGeometry height="114" width="420" x="1460" y="2540" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-181" parent="XzQZPunU_e5TuytFXa2U-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成もとにする論理デバイス" vertex="1">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-181" parent="XzQZPunU_e5TuytFXa2U-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元にする論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-182" parent="XzQZPunU_e5TuytFXa2U-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ semaphore: 破棄するセマフォ" vertex="1">
@@ -634,9 +634,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-211" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateSwapchainKHR()&#xa;指定された論理デバイスからスワップチェインを作成する" vertex="1">
-          <mxGeometry height="138" width="420" x="1460" y="2690" as="geometry" />
+          <mxGeometry height="138" width="420" x="1460" y="2700" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-212" parent="XzQZPunU_e5TuytFXa2U-211" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成もとにする論理デバイス" vertex="1">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-212" parent="XzQZPunU_e5TuytFXa2U-211" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元にする論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-215" parent="XzQZPunU_e5TuytFXa2U-211" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCreateInfo: スワップチェインの作成方法についての構造体" vertex="1">
@@ -649,7 +649,7 @@
           <mxGeometry height="24" width="420" y="114" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-216" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkSwapchainCreateInfoKHR &#xa;作成するスワップチェインについての構造体" vertex="1">
-          <mxGeometry height="522" width="517" x="736" y="2478" as="geometry" />
+          <mxGeometry height="522" width="517" x="410" y="2472" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-217" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO）" vertex="1">
           <mxGeometry height="40" width="517" y="40" as="geometry" />
@@ -753,6 +753,161 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t80sJ-6f4yEbLSHafLw7-14" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-149" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="t80sJ-6f4yEbLSHafLw7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkAcquireNextImage2KHR()&#xa;スワップチェインのうち、描画この宇名インデックスを取得する" vertex="1">
+          <mxGeometry height="114" width="420" x="1460" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-1" parent="PaQ1I05y7laXgCll8hMG-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元になるスワップチェインがある論理デバイス" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-2" parent="PaQ1I05y7laXgCll8hMG-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pAcquireInfo: 画像取得に関する構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-3" parent="PaQ1I05y7laXgCll8hMG-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pImageIndex: 次に使用するべき画像のインデックスが返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-24" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkAcquireNextImageInfoKHR&#xa;作成するスワップチェインについての構造体" vertex="1">
+          <mxGeometry height="236" width="517" x="784.5" y="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-6" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR）" vertex="1">
+          <mxGeometry height="40" width="517" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-7" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="517" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-8" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ swapchain: 対象のスワップチェイン" vertex="1">
+          <mxGeometry height="26" width="517" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-9" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ timeout: 何ナノ秒待てるかの待機時間" vertex="1">
+          <mxGeometry height="26" width="517" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-10" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ semaphore: プレゼンテーション処理完了待ちを検知するセマフォ信号" vertex="1">
+          <mxGeometry height="26" width="517" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-11" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ fence: フェンス" vertex="1">
+          <mxGeometry height="26" width="517" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-12" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ deviceMask: 利用可能な物理デバイスのマスク" vertex="1">
+          <mxGeometry height="26" width="517" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-25" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-26" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="2506" />
+              <mxPoint x="1400" y="3171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-28" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-33" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkQueueSubmit2()&#xa;コマンドバッファをキューに送信する" vertex="1">
+          <mxGeometry height="138" width="420" x="2420" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-34" parent="PaQ1I05y7laXgCll8hMG-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queue: コマンドバッファが送信されるキュー" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-35" parent="PaQ1I05y7laXgCll8hMG-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ submitCount: 送信するコマンドバッファのパッチの数" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-36" parent="PaQ1I05y7laXgCll8hMG-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pSubmits: 送信するコマンドバッファのパッチの配列" vertex="1">
+          <mxGeometry height="24" width="420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-37" parent="PaQ1I05y7laXgCll8hMG-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ fence: フェンス" vertex="1">
+          <mxGeometry height="24" width="420" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-38" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-50" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-39" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkSubmitInfo2&#xa;サブミット操作のための構造体" vertex="1">
+          <mxGeometry height="288" width="410" x="2400" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-40" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_SUBMIT_INFO_2 ）" vertex="1">
+          <mxGeometry height="40" width="410" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-41" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-44" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: 保護されたコマンドバッファかどうかのフラグ" vertex="1">
+          <mxGeometry height="26" width="410" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-42" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ waitSemaphoreInfoCount: 待機セマフォ数" vertex="1">
+          <mxGeometry height="26" width="410" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-47" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pWaitSemaphoreInfos: 待機セマフォの配列" vertex="1">
+          <mxGeometry height="26" width="410" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-46" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ commandBufferInfoCount: サブミットするコマンドバッファの数" vertex="1">
+          <mxGeometry height="26" width="410" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-45" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCommandBufferInfos:サブミットするコマンドバッファについての配列" vertex="1">
+          <mxGeometry height="26" width="410" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-48" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ signalSemaphoreInfoCount: シグナル状態にするセマフォの数" vertex="1">
+          <mxGeometry height="26" width="410" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-49" parent="PaQ1I05y7laXgCll8hMG-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pSignalSemaphoreInfos: シグナル状態にするセマフォの配列" vertex="1">
+          <mxGeometry height="26" width="410" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-61" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-62" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-51" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkSemaphoreSubmitInfo &#xa;サブミット操作するときのセマフォ状態の構造体" vertex="1">
+          <mxGeometry height="210" width="410" x="2170" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-52" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO ）" vertex="1">
+          <mxGeometry height="40" width="410" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-53" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-54" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ semaphore: 操作対象のセマフォ" vertex="1">
+          <mxGeometry height="26" width="410" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-55" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ value: シグナル状態にするときに使う値" vertex="1">
+          <mxGeometry height="26" width="410" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-56" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ stageMask : 同期状態の時に使うマスク" vertex="1">
+          <mxGeometry height="26" width="410" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-57" parent="PaQ1I05y7laXgCll8hMG-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ deviceIndex: セマフォを実行するデバイスのインデックス" vertex="1">
+          <mxGeometry height="26" width="410" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-71" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-63" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkCommandBufferSubmitInfo&#xa;サブミット操作するときのコマンドバッファの構造体" vertex="1">
+          <mxGeometry height="158" width="410" x="1920" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-64" parent="PaQ1I05y7laXgCll8hMG-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO ）" vertex="1">
+          <mxGeometry height="40" width="410" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-65" parent="PaQ1I05y7laXgCll8hMG-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-66" parent="PaQ1I05y7laXgCll8hMG-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ commandBuffer: 対象のコマンドバッファ" vertex="1">
+          <mxGeometry height="26" width="410" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-67" parent="PaQ1I05y7laXgCll8hMG-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ deviceMask: コマンドバッファを実行するデバイスのマスク" vertex="1">
+          <mxGeometry height="26" width="410" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-70" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t80sJ-6f4yEbLSHafLw7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-72" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
