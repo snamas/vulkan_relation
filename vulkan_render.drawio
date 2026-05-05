@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2147" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5707" dy="3836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkInstanceCreateInfo &#xa;Vulkanインスタンスの設定のための構造体" vertex="1">
-          <mxGeometry height="262" width="380" x="-410" y="70" as="geometry" />
+          <mxGeometry height="262" width="380" x="-570" y="140" as="geometry" />
         </mxCell>
         <mxCell id="g9-6-ubSyV07y9Zf1O_9-8" parent="g9-6-ubSyV07y9Zf1O_9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO ）" vertex="1">
           <mxGeometry height="40" width="380" y="40" as="geometry" />
@@ -589,7 +589,7 @@
           <mxGeometry height="26" width="506" y="116" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-192" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateWin32SurfaceKHR()&#xa;windows用のサーフェイスを作成する" vertex="1">
-          <mxGeometry height="140" width="506" x="34" y="585" as="geometry" />
+          <mxGeometry height="140" width="506" x="-136" y="2532" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-193" parent="XzQZPunU_e5TuytFXa2U-192" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ instance: 作成元のインスタンス" vertex="1">
           <mxGeometry height="26" width="506" y="40" as="geometry" />
@@ -613,7 +613,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-201" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkWin32SurfaceCreateInfoKHR &#xa;作成するサーフェイスについての構造体" vertex="1">
-          <mxGeometry height="184" width="390" x="-510" y="573" as="geometry" />
+          <mxGeometry height="184" width="390" x="-680" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-202" parent="XzQZPunU_e5TuytFXa2U-201" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR）" vertex="1">
           <mxGeometry height="40" width="390" y="40" as="geometry" />
@@ -709,6 +709,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-236" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XzQZPunU_e5TuytFXa2U-237" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-229">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
