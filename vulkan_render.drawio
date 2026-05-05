@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3161" dy="2445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6791" dy="4429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -457,7 +457,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-145" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateCommandPool()&#xa;指定された論理デバイスからコマンドプールを作成する" vertex="1">
-          <mxGeometry height="138" width="420" x="1460" y="1900" as="geometry" />
+          <mxGeometry height="138" width="420" x="1460" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-146" parent="XzQZPunU_e5TuytFXa2U-145" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成もとにする論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -556,7 +556,7 @@
           <mxGeometry height="26" width="420" y="106" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-180" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkDestroySemaphore()&#xa;指定されたセマフォを破棄する" vertex="1">
-          <mxGeometry height="114" width="420" x="1460" y="2590" as="geometry" />
+          <mxGeometry height="114" width="420" x="1460" y="2600" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-181" parent="XzQZPunU_e5TuytFXa2U-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元にする論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
