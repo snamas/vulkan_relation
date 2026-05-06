@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3511" dy="2636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4661" dy="3265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -453,7 +453,7 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-126" parent="XzQZPunU_e5TuytFXa2U-121" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueIndex: 取得するキューのインデックス" vertex="1">
           <mxGeometry height="26" width="420" y="158" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-144" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-117">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-144" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-145" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateCommandPool()&#xa;指定された論理デバイスからコマンドプールを作成する" vertex="1">
@@ -489,7 +489,7 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-156" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-157" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-146">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-157" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-158" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateFence()&#xa;指定された論理デバイスからフェンスを作成する" vertex="1">
@@ -507,7 +507,7 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-162" parent="XzQZPunU_e5TuytFXa2U-158" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pFence: ここにフェンスハンドラが返ってくる" vertex="1">
           <mxGeometry height="24" width="420" y="114" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-163" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-159">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-163" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-159">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-164" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkFenceCreateInfo&#xa;作成するフェンスについての構造体" vertex="1">
@@ -567,10 +567,10 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-183" parent="XzQZPunU_e5TuytFXa2U-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pAllocator: メモリアロケーターの方法についての構造体" vertex="1">
           <mxGeometry height="24" width="420" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-185" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-171">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-185" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-171">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-186" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-181">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-186" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-187" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetPhysicalDeviceSurfaceSupportKHR()&#xa;サーフェイスを作成することができたか" vertex="1">
@@ -705,7 +705,7 @@
         <mxCell id="XzQZPunU_e5TuytFXa2U-221" parent="XzQZPunU_e5TuytFXa2U-216" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ oldSwapchain: 再利用のため、前に作ったスワップチェーンを入れられる" vertex="1">
           <mxGeometry height="26" width="517" y="496" as="geometry" />
         </mxCell>
-        <mxCell id="XzQZPunU_e5TuytFXa2U-220" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-212">
+        <mxCell id="XzQZPunU_e5TuytFXa2U-220" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="XzQZPunU_e5TuytFXa2U-212">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzQZPunU_e5TuytFXa2U-236" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XzQZPunU_e5TuytFXa2U-215">
@@ -786,7 +786,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-12" parent="PaQ1I05y7laXgCll8hMG-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ deviceMask: 利用可能な物理デバイスのマスク" vertex="1">
           <mxGeometry height="26" width="388.5" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-25" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-1">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-25" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1230" y="1765" />
@@ -1000,7 +1000,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-110" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: このバッファにアクセスできるキューファミリーの配列" vertex="1">
           <mxGeometry height="26" width="483" y="236" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-105" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-97">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-105" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-112" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-10">
@@ -1074,7 +1074,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-141" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-142" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-115">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-142" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-115">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1230" y="1765" />
@@ -1115,7 +1115,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-151" parent="PaQ1I05y7laXgCll8hMG-148" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ memoryTypeIndex: このメモリタイプを示すインデックスをいれる&#xa;ここはデバイスから取得したmemoryTypes配列から&#xa;割り当てたいタイプが格納されているインデックスを入れる" vertex="1">
           <mxGeometry height="58" width="420" y="132" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-154" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-144">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-154" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-155" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkBindBufferMemory()&#xa;バッファとメモリを関連付ける" vertex="1">
@@ -1180,7 +1180,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-179" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-180" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t80sJ-6f4yEbLSHafLw7-1">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-180" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="t80sJ-6f4yEbLSHafLw7-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1230" y="1765" />
@@ -1188,7 +1188,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-181" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-156">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-181" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-156">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1230" y="1765" />
@@ -1199,7 +1199,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-182" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-183" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-165">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-183" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-165">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1230" y="1765" />
