@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2454" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -974,16 +974,31 @@
           <mxGeometry height="24" width="420" y="114" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-101" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkBufferCreateInfo&#xa;作成するバッファについての構造体" vertex="1">
-          <mxGeometry height="132" width="420" x="827" y="3330" as="geometry" />
+          <mxGeometry height="262" width="483" x="827" y="3330" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-102" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO）" vertex="1">
-          <mxGeometry height="40" width="420" y="40" as="geometry" />
+          <mxGeometry height="40" width="483" y="40" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-103" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
-          <mxGeometry height="26" width="420" y="80" as="geometry" />
+          <mxGeometry height="26" width="483" y="80" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-104" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: バッファの状態についてのフラグ" vertex="1">
-          <mxGeometry height="26" width="420" y="106" as="geometry" />
+          <mxGeometry height="26" width="483" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-109" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ size: 作成するバッファのサイズ" vertex="1">
+          <mxGeometry height="26" width="483" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-108" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ usage: バッファに許可する使用用途" vertex="1">
+          <mxGeometry height="26" width="483" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-106" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sharingMode: 複数のキューファミリーがアクセスする時の共有モード" vertex="1">
+          <mxGeometry height="26" width="483" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-107" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyIndexCount: このバッファにアクセスできるキューファミリーの数" vertex="1">
+          <mxGeometry height="26" width="483" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-110" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: このバッファにアクセスできるキューファミリーの配列" vertex="1">
+          <mxGeometry height="26" width="483" y="236" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-105" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-97">
           <mxGeometry relative="1" as="geometry" />
