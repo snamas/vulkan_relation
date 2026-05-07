@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3985" dy="2895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3383" dy="2566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1250,7 +1250,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-197" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateGraphicsPipelines()&#xa;グラフィックスパイプラインを作成する" vertex="1">
-          <mxGeometry height="186" width="420" x="2540" y="4210" as="geometry" />
+          <mxGeometry height="186" width="420" x="2530" y="3905" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-198" parent="PaQ1I05y7laXgCll8hMG-197" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -1337,7 +1337,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-237" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkPipelineVertexInputStateCreateInfo &#xa;頂点入力の設定の構造体" vertex="1">
-          <mxGeometry height="232" width="420" x="1480" y="4581" as="geometry" />
+          <mxGeometry height="232" width="420" x="640" y="4581" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-238" parent="PaQ1I05y7laXgCll8hMG-237" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（ VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO）" vertex="1">
           <mxGeometry height="40" width="420" y="40" as="geometry" />
@@ -1364,7 +1364,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-247" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkVertexInputBindingDescription&#xa;頂点入力バインディングの構造体" vertex="1">
-          <mxGeometry height="114" width="420" x="890" y="4590" as="geometry" />
+          <mxGeometry height="114" width="420" x="120" y="4550" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-251" parent="PaQ1I05y7laXgCll8hMG-247" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ binding : この構造体が記述する頂点入力バインディングの番号" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -1379,7 +1379,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-256" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkVertexInputAttributeDescription&#xa;頂点バッファの内容と頂点属性の関連付けのための構造体" vertex="1">
-          <mxGeometry height="140" width="420" x="890" y="4800" as="geometry" />
+          <mxGeometry height="140" width="420" x="50" y="4800" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-257" parent="PaQ1I05y7laXgCll8hMG-256" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ location: シェーダーで記述したロケーション番号" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -1545,6 +1545,117 @@
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-330" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t80sJ-6f4yEbLSHafLw7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-327">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-331" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-332" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateDescriptorPool()&#xa;ディスクリプタプールを作成する" vertex="1">
+          <mxGeometry height="138" width="420" x="1250" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-333" parent="PaQ1I05y7laXgCll8hMG-332" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-334" parent="PaQ1I05y7laXgCll8hMG-332" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCreateInfo: ディスクリプタプールの構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-335" parent="PaQ1I05y7laXgCll8hMG-332" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pAllocator: メモリアロケーターの方法についての構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-336" parent="PaQ1I05y7laXgCll8hMG-332" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pDescriptorPool:作られたディスクリプタプールが返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-349" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-334">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-337" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkDescriptorPoolCreateInfo &#xa;ディスクリプタプール設定の構造体" vertex="1">
+          <mxGeometry height="202" width="420" x="580" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-338" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（ VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO）" vertex="1">
+          <mxGeometry height="40" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-339" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-340" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: ディスクリプタプールの挙動" vertex="1">
+          <mxGeometry height="26" width="420" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-341" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ maxSets: プールに割り当てられる最大のディスクリプタセットの数" vertex="1">
+          <mxGeometry height="26" width="420" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-343" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ poolSizeCount: 割り当てるディスクリプタの情報の個数" vertex="1">
+          <mxGeometry height="22" width="420" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-342" parent="PaQ1I05y7laXgCll8hMG-337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pPoolSizes: 割り当てるディスクリプタの情報の配列" vertex="1">
+          <mxGeometry height="22" width="420" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-348" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-344" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkDescriptorPoolSize &#xa;ディスクリプタプールのサイズについての構造体" vertex="1">
+          <mxGeometry height="88" width="420" x="110" y="5024" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-345" parent="PaQ1I05y7laXgCll8hMG-344" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ type : ディスクリプタのタイプ" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-346" parent="PaQ1I05y7laXgCll8hMG-344" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ descriptorCount: そのタイプを割り当てる数" vertex="1">
+          <mxGeometry height="22" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-350" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateDescriptorSetLayout()&#xa;ディスクリプタセットレイアウトを作成する" vertex="1">
+          <mxGeometry height="138" width="420" x="1250" y="5192" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-351" parent="PaQ1I05y7laXgCll8hMG-350" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-352" parent="PaQ1I05y7laXgCll8hMG-350" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCreateInfo: ディスクリプタセットレイアウトの構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-353" parent="PaQ1I05y7laXgCll8hMG-350" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pAllocator: メモリアロケーターの方法についての構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-354" parent="PaQ1I05y7laXgCll8hMG-350" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pSetLayout:作られたディスクリプタセットレイアウトが返ってくる" vertex="1">
+          <mxGeometry height="24" width="420" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-381" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-355" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkDescriptorSetLayoutCreateInfo  &#xa;ディスクリプタセットレイアウトの設定構造体" vertex="1">
+          <mxGeometry height="180" width="420" x="580" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-356" parent="PaQ1I05y7laXgCll8hMG-355" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（ VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO）" vertex="1">
+          <mxGeometry height="40" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-357" parent="PaQ1I05y7laXgCll8hMG-355" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-358" parent="PaQ1I05y7laXgCll8hMG-355" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: ディスクリプタセットレイアウトの挙動" vertex="1">
+          <mxGeometry height="26" width="420" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-359" parent="PaQ1I05y7laXgCll8hMG-355" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ bindingCount: バインドする数" vertex="1">
+          <mxGeometry height="26" width="420" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-360" parent="PaQ1I05y7laXgCll8hMG-355" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pBindings : バインドする情報の配列" vertex="1">
+          <mxGeometry height="22" width="420" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-380" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PaQ1I05y7laXgCll8hMG-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-374" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkDescriptorSetLayoutBinding   &#xa;ディスクリプタセットレイアウトバインディングの設定構造体" vertex="1">
+          <mxGeometry height="174" width="420" x="60" y="5273" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-375" parent="PaQ1I05y7laXgCll8hMG-374" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ binding : シェーダーのどの変数とリソースバインドするかの番号" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-376" parent="PaQ1I05y7laXgCll8hMG-374" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ descriptorType  :リソースの種類" vertex="1">
+          <mxGeometry height="22" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-377" parent="PaQ1I05y7laXgCll8hMG-374" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ descriptorCount: バインドするシェーダー変数に含まれる要素の個数&#xa;配列としてアクセスできる" vertex="1">
+          <mxGeometry height="42" width="420" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-378" parent="PaQ1I05y7laXgCll8hMG-374" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ stageFlags  :どのシェーダーステージがアクセスできるかのフラグ" vertex="1">
+          <mxGeometry height="22" width="420" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-379" parent="PaQ1I05y7laXgCll8hMG-374" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pImmutableSamplers  :定数サンプラーの初期化について" vertex="1">
+          <mxGeometry height="22" width="420" y="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
