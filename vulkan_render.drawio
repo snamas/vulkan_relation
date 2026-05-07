@@ -905,7 +905,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-73" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkQueuePresentKHR()&#xa;プレゼンテーションを実行するキューを投入する" vertex="1">
-          <mxGeometry height="90" width="420" x="2930" y="2513" as="geometry" />
+          <mxGeometry height="90" width="420" x="2435" y="2892" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-74" parent="PaQ1I05y7laXgCll8hMG-73" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queue: プレゼンテーションを行うキュー" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -948,14 +948,6 @@
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-90" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-83">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-91" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-74">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2240" y="1855" />
-              <mxPoint x="2240" y="2566" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-92" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t80sJ-6f4yEbLSHafLw7-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1932,6 +1924,14 @@
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-465" parent="PaQ1I05y7laXgCll8hMG-462" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ range: 更新するバッファのバイナリサイズ" vertex="1">
           <mxGeometry height="26" width="420" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="PaQ1I05y7laXgCll8hMG-467" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PaQ1I05y7laXgCll8hMG-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="1855" />
+              <mxPoint x="2240" y="2945" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
