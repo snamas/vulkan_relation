@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2321" dy="2196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2185" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -994,7 +994,7 @@
         <mxCell id="PaQ1I05y7laXgCll8hMG-107" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyIndexCount: このバッファにアクセスできるキューファミリーの数" vertex="1">
           <mxGeometry height="26" width="483" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="PaQ1I05y7laXgCll8hMG-110" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: このバッファにアクセスできるキューファミリーの配列" vertex="1">
+        <mxCell id="PaQ1I05y7laXgCll8hMG-110" parent="PaQ1I05y7laXgCll8hMG-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: このバッファにアクセスできるキューファミリー番号の配列" vertex="1">
           <mxGeometry height="26" width="483" y="236" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-105" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XzQZPunU_e5TuytFXa2U-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" target="PaQ1I05y7laXgCll8hMG-97">
@@ -1943,8 +1943,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateImage()&#xa;画像を作成する" vertex="1">
-          <mxGeometry height="138" width="420" x="1250" y="5666" as="geometry" />
+        <mxCell id="snV78bu9TPhBN7FdxFqt-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkCreateImage()&#xa;画像オブジェクトを作成する" vertex="1">
+          <mxGeometry height="138" width="420" x="1247" y="5930" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-1" parent="snV78bu9TPhBN7FdxFqt-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
@@ -1962,25 +1962,79 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkImageCreateInfo &#xa;画像の設定の構造体" vertex="1">
-          <mxGeometry height="202" width="420" x="580" y="5643" as="geometry" />
+          <mxGeometry height="400" width="450" x="550" y="5643" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-6" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（ VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO）" vertex="1">
-          <mxGeometry height="40" width="420" y="40" as="geometry" />
+          <mxGeometry height="40" width="450" y="40" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-7" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
-          <mxGeometry height="26" width="420" y="80" as="geometry" />
+          <mxGeometry height="26" width="450" y="80" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-8" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ flags: 画像の追加パラメーター" vertex="1">
-          <mxGeometry height="26" width="420" y="106" as="geometry" />
+          <mxGeometry height="26" width="450" y="106" as="geometry" />
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-9" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ maxSets: プールに割り当てられる最大のディスクリプタセットの数" vertex="1">
-          <mxGeometry height="26" width="420" y="132" as="geometry" />
+        <mxCell id="snV78bu9TPhBN7FdxFqt-9" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ imageType: 画像の次元数（１次元、２次元、３次元）" vertex="1">
+          <mxGeometry height="26" width="450" y="132" as="geometry" />
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-10" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ poolSizeCount: 割り当てるディスクリプタの情報の個数" vertex="1">
-          <mxGeometry height="22" width="420" y="158" as="geometry" />
+        <mxCell id="snV78bu9TPhBN7FdxFqt-10" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ format: テクスチャーフォーマット（R8G8B8A8とか）" vertex="1">
+          <mxGeometry height="22" width="450" y="158" as="geometry" />
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-11" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pPoolSizes: 割り当てるディスクリプタの情報の配列" vertex="1">
-          <mxGeometry height="22" width="420" y="180" as="geometry" />
+        <mxCell id="snV78bu9TPhBN7FdxFqt-11" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ extent: 画像のサイズ" vertex="1">
+          <mxGeometry height="22" width="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-16" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ mipLevels: ミップマップの数" vertex="1">
+          <mxGeometry height="22" width="450" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-15" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ arrayLayers: 画像のレイヤー数" vertex="1">
+          <mxGeometry height="22" width="450" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-14" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ samples: 1ピクセルあたりのサンプル数" vertex="1">
+          <mxGeometry height="22" width="450" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-13" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ tiling: 画像データの配置方法" vertex="1">
+          <mxGeometry height="22" width="450" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-22" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ usage: 画像データの使用用途（移す用とか深度用とか）" vertex="1">
+          <mxGeometry height="22" width="450" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-17" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sharingMode: 画像の共有方法（複数キューファミリーから同時アクセス可能か）" vertex="1">
+          <mxGeometry height="22" width="450" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-18" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ queueFamilyIndexCount: 画像にアクセスするキューファミリーの数" vertex="1">
+          <mxGeometry height="22" width="450" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-19" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pQueueFamilyIndices: 画像にアクセスするキューファミリー番号の配列" vertex="1">
+          <mxGeometry height="22" width="450" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-20" parent="snV78bu9TPhBN7FdxFqt-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ initialLayout: 画像のサブリソース全ての初期レイアウト" vertex="1">
+          <mxGeometry height="22" width="450" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkImageMemoryRequirementsInfo2 &#xa;画像のメモリを要求するための構造体" vertex="1">
+          <mxGeometry height="132" width="450" x="1710" y="6020" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-24" parent="snV78bu9TPhBN7FdxFqt-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sType: 構造体の種類を示す値&#xa;（ VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2）" vertex="1">
+          <mxGeometry height="40" width="450" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-25" parent="snV78bu9TPhBN7FdxFqt-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pNext: 構造体を拡張するためのポインタ" vertex="1">
+          <mxGeometry height="26" width="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-26" parent="snV78bu9TPhBN7FdxFqt-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ image: 画像オブジェクト" vertex="1">
+          <mxGeometry height="26" width="450" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-39" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snV78bu9TPhBN7FdxFqt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="snV78bu9TPhBN7FdxFqt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-40" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="vkGetImageMemoryRequirements2()&#xa;画像の要求メモリ要件を取得する" vertex="1">
+          <mxGeometry height="114" width="420" x="1654" y="6160" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-41" parent="snV78bu9TPhBN7FdxFqt-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
+          <mxGeometry height="26" width="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-42" parent="snV78bu9TPhBN7FdxFqt-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pInfo: メモリ確保する画像オブジェクトを含んだ構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="snV78bu9TPhBN7FdxFqt-43" parent="snV78bu9TPhBN7FdxFqt-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pMemoryRequirements: 確保するメモリ要件についての構造体" vertex="1">
+          <mxGeometry height="24" width="420" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
