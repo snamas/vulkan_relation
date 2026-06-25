@@ -2048,13 +2048,13 @@
         <mxCell id="snV78bu9TPhBN7FdxFqt-48" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ device: 作成元の論理デバイス" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-49" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCreateInfo: 画像の仕様の構造体" vertex="1">
+        <mxCell id="snV78bu9TPhBN7FdxFqt-49" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pCreateInfo: イメージビューの仕様の構造体" vertex="1">
           <mxGeometry height="24" width="420" y="66" as="geometry" />
         </mxCell>
         <mxCell id="snV78bu9TPhBN7FdxFqt-50" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pAllocator: メモリアロケーターの方法についての構造体" vertex="1">
           <mxGeometry height="24" width="420" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="snV78bu9TPhBN7FdxFqt-51" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pImage:作られた画像が返ってくる" vertex="1">
+        <mxCell id="snV78bu9TPhBN7FdxFqt-51" parent="snV78bu9TPhBN7FdxFqt-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ pView:作られたイメージビューオブジェクトが返ってくる" vertex="1">
           <mxGeometry height="24" width="420" y="114" as="geometry" />
         </mxCell>
       </root>
