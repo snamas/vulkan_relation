@@ -1041,7 +1041,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-125" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VkMemoryRequirements &#xa;メモリ要件についての構造体" vertex="1">
-          <mxGeometry height="118" width="410" x="2400" y="3666" as="geometry" />
+          <mxGeometry height="118" width="410" x="2210" y="3730" as="geometry" />
         </mxCell>
         <mxCell id="PaQ1I05y7laXgCll8hMG-129" parent="PaQ1I05y7laXgCll8hMG-125" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ size : 必要メモリサイズ" vertex="1">
           <mxGeometry height="26" width="410" y="40" as="geometry" />
